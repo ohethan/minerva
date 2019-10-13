@@ -1,0 +1,37 @@
+{
+  "name": "HackNC_Project",
+  "description": "course thing",
+  "main": "Main.xaml",
+  "dependencies": {
+    "CsvHelper": "[2.13.5]",
+    "UiPath.Excel.Activities": "[2.6.3]",
+    "UiPath.Persistence.Activities": "[1.0.0-ce]",
+    "UiPath.System.Activities": "[19.10.0-beta.558599]",
+    "UiPath.UIAutomation.Activities": "[19.10.0-beta.561155]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.0.90",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": false,
+    "supportsPersistence": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
