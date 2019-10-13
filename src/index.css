@@ -1,3 +1,18 @@
+
+.wrapper-2 {
+  padding: 0px 15px;
+  background-color: white;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0px;
+  }
+
+  .general {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +20,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('images/gradient.png');
+  background-size:cover;
+}
+
+.intro {
+  text-align: center;
+}
+
+#head { 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80px;
+  color: white;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.courseContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.course {
+  margin: 30px;
+  width: 280px;
+  height: 310px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: white;
+  /*border: 1px solid black;*/
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+#spaceTitle{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.course > .courseTitle {
+  font-family: Lato;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(45deg, #96c0e6, #41aaf5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+
+.rating  {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mainRating {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+
